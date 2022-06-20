@@ -1,6 +1,6 @@
 # templates
 
-A collection of nix flake templates
+A collection of [nix flake](https://serokell.io/blog/practical-nix-flakes) templates
 
 ## Using a template
 
