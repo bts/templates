@@ -24,7 +24,7 @@
         ghcVersion = "902";
         config = {
           allowUnfree = false;
-          allowBroken = true;
+          allowBroken = false;
           allowUnsupportedSystem = false;
         };
         overlay = final: _:
