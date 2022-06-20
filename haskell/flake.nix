@@ -1,3 +1,7 @@
+#
+# NOTE: set a description and packageName below.
+#
+
 {
   description = throw "put your package description here!";
   inputs = {
