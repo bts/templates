@@ -1,0 +1,23 @@
+name: package-name
+version: 0.1.0
+#synopsis: TODO
+#maintainer: TODO <email@example.com>
+#github: abc/xyz
+#extra-source-files:
+#  - CHANGELOG.md
+
+#ghc-options: -Wall
+
+dependencies:
+  - base
+
+library:
+  source-dirs: src
+#  exposed-modules:
+#    - PackageName
+
+#executable:
+#  main: Main.hs
+#  source-dirs: app
+#  dependencies:
+#    - package-name
