@@ -13,5 +13,16 @@
         - Update `package.yaml` file
       '';
     };
+
+    templates.python = {
+      path = ./python;
+      description = "Python project using poetry2nix";
+      welcomeText = ''
+        # Python template
+        ## Getting started
+        - Run `nix develop`
+        - Run `poetry run python -m sample_package`
+      '';
+    };
   };
 }
